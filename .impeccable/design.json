@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "surface": "global-business-globe",
+  "direction": "quiet operational planet",
+  "colors": {
+    "page": "#f6f8f7",
+    "canvas": "#fbfcfb",
+    "globe": "#f0f1f1",
+    "signal": "#35c987",
+    "card": "#111414",
+    "cardChinese": "#ffffff",
+    "cardEnglish": "#b3bab8"
+  },
+  "fonts": {
+    "cardChinese": "Source Han Sans CN",
+    "cardEnglish": "Krona One"
+  },
+  "breakpoints": {
+    "stackPanel": 760,
+    "compactGlobe": 480
+  },
+  "motion": {
+    "autoRotate": true,
+    "drag": true,
+    "inertia": true,
+    "reducedMotionDisablesContinuousMotion": true
+  },
+  "cardModes": ["hover", "all"],
+  "persistence": ["visual-config", "countries"],
+  "productionDebugDefault": false
+}

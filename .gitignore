@@ -56,3 +56,8 @@ temp/
 *.tmp
 *.swp
 *~
+
+# Local design review artifacts
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/config.local.json

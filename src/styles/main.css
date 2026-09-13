@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Krona One";
+  src: url('../assets/fonts/KronaOne-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Han Sans CN";
+  src: url('../assets/fonts/SourceHanSansCN-Bold.otf') format('opentype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  color: #181c1b;
+  background: #f6f8f7;
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  color-scheme: light;
+  background: #f6f8f7;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.preview-shell {
+  width: min(1240px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 36px 0 40px;
+}
+
+.preview-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 21px;
+}
+
+.preview-heading h1,
+.preview-heading p,
+.sample-note {
+  margin: 0;
+}
+
+.preview-heading h1 {
+  font-size: clamp(22px, 2.6vw, 34px);
+  font-weight: 620;
+  letter-spacing: -0.04em;
+}
+
+.preview-heading p {
+  max-width: 400px;
+  color: #6a7471;
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.sample-note {
+  margin-top: 12px;
+  color: #818a87;
+  font-size: 10px;
+}
+
+@media (max-width: 680px) {
+  .preview-shell {
+    width: calc(100% - 24px);
+    padding-top: 22px;
+  }
+
+  .preview-heading {
+    align-items: flex-start;
+    gap: 5px;
+    flex-direction: column;
+  }
+
+  .preview-heading p {
+    text-align: left;
+  }
+}
