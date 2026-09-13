@@ -7,7 +7,7 @@ import { businessCountries } from './data/businessCountries'
   <main class="preview-shell">
     <header class="preview-heading">
       <h1>Global business map</h1>
-      <p>Interactive component preview · illustrative data</p>
+      <p>Interactive component preview · 18 business locations</p>
     </header>
 
     <GlobalBusinessGlobe
@@ -17,7 +17,7 @@ import { businessCountries } from './data/businessCountries'
     />
 
     <p class="sample-note">
-      Sample locations and values — replace them in
+      Business locations are maintained in
       <code>src/data/businessCountries.ts</code>.
     </p>
   </main>

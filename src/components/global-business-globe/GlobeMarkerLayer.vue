@@ -68,8 +68,10 @@ function markerStyle(country: BusinessCountry): CSSProperties {
         :background="config.cardBackground"
         :offset-x="config.cardOffsetX"
         :offset-y="config.cardOffsetY"
+        :chinese-font-size="config.cardChineseFontSize"
         :chinese-color="config.cardChineseColor"
         :chinese-opacity="config.cardChineseOpacity"
+        :english-font-size="config.cardEnglishFontSize"
         :english-color="config.cardEnglishColor"
         :english-opacity="config.cardEnglishOpacity"
       />

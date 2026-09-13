@@ -12,8 +12,10 @@ export interface GlobeVisualConfig {
   cardOffsetX: number
   cardOffsetY: number
   cardBackground: string
+  cardChineseFontSize: number
   cardChineseColor: string
   cardChineseOpacity: number
+  cardEnglishFontSize: number
   cardEnglishColor: string
   cardEnglishOpacity: number
   cardDisplayMode: 'hover' | 'all'

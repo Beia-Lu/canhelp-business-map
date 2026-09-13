@@ -8,10 +8,10 @@ The component is a quiet business-coverage instrument: paper-white space, a pale
 
 - Canvas: `#fbfcfb`; page: `#f6f8f7`; controls: `#f5f7f6`.
 - Globe tint: `#f0f1f1`; signal green: `#35c987`; card: `#111414`.
-- Card Chinese: `#ffffff` at `1`; English: `#b3bab8` at `0.9`. Both are runtime parameters.
+- Card Chinese: `#ffffff` at `1` and 18px; English: `#b3bab8` at `0.9` and 10px. Color, opacity, and size are runtime parameters.
 - Chinese display face: Source Han Sans CN Bold. English display face: Krona One Regular, uppercase.
 - Primary radii: 12px surface/card, 8px control panel, 4–5px form controls.
-- Spacing follows a compact 4/6/8/12/16/18px rhythm.
+- Cards use fixed 8px vertical and 12px horizontal padding, expanding naturally with bilingual text size. General spacing follows a compact 4/6/8/12/16/18px rhythm.
 
 ## Layout and responsive behavior
 

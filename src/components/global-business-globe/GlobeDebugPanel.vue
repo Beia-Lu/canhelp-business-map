@@ -115,8 +115,10 @@ function removeCustomCountry(country: BusinessCountry) {
         <label><span>水平偏移 <output>{{ config.cardOffsetX }}</output></span><input :value="config.cardOffsetX" type="range" min="-80" max="80" step="1" @input="updateNumber('cardOffsetX', $event)"></label>
         <label><span>垂直偏移 <output>{{ config.cardOffsetY }}</output></span><input :value="config.cardOffsetY" type="range" min="-80" max="60" step="1" @input="updateNumber('cardOffsetY', $event)"></label>
         <label class="color-control"><span>卡片背景 <output>{{ config.cardBackground }}</output></span><input :value="config.cardBackground" type="color" @input="updateText('cardBackground', $event)"></label>
+        <label><span>中文字号 <output>{{ config.cardChineseFontSize }}px</output></span><input :value="config.cardChineseFontSize" type="range" min="12" max="30" step="1" @input="updateNumber('cardChineseFontSize', $event)"></label>
         <label class="color-control"><span>中文颜色 <output>{{ config.cardChineseColor }}</output></span><input :value="config.cardChineseColor" type="color" @input="updateText('cardChineseColor', $event)"></label>
         <label><span>中文不透明度 <output>{{ config.cardChineseOpacity.toFixed(2) }}</output></span><input :value="config.cardChineseOpacity" type="range" min="0" max="1" step="0.05" @input="updateNumber('cardChineseOpacity', $event)"></label>
+        <label><span>英文字号 <output>{{ config.cardEnglishFontSize }}px</output></span><input :value="config.cardEnglishFontSize" type="range" min="7" max="18" step="1" @input="updateNumber('cardEnglishFontSize', $event)"></label>
         <label class="color-control"><span>英文颜色 <output>{{ config.cardEnglishColor }}</output></span><input :value="config.cardEnglishColor" type="color" @input="updateText('cardEnglishColor', $event)"></label>
         <label><span>英文不透明度 <output>{{ config.cardEnglishOpacity.toFixed(2) }}</output></span><input :value="config.cardEnglishOpacity" type="range" min="0" max="1" step="0.05" @input="updateNumber('cardEnglishOpacity', $event)"></label>
       </fieldset>

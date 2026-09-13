@@ -1,7 +1,7 @@
 import { ref, type Ref } from 'vue'
 import type { BusinessCountry } from '../types/globe'
 
-const COUNTRY_DATA_VERSION = 1
+const COUNTRY_DATA_VERSION = 2
 
 interface StoredCountries {
   version: number

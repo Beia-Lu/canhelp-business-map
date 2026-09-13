@@ -34,7 +34,7 @@ The component is designed for a company webpage. During design and development, 
 - A development panel edits globe, marker, bilingual card, and country-location data without renderer changes.
 - Saved settings reload reliably; JSON export is reserved as a future-compatible capability.
 - Production must not require deleting debug code manually.
-- Example countries are illustrative until replaced with approved company data.
+- The default dataset contains the 18 business countries supplied by the user; each maps to a capital or primary business-city coordinate.
 
 ## Brand Commitments
 
@@ -45,7 +45,7 @@ Use the supplied reference image as the binding visual direction: white or near-
 - Supplied visual reference: `codex-clipboard-73c88017-b7b4-4943-8e75-2d2e0dbbee74.png`.
 - Supplied card reference: `codex-clipboard-82045d94-fb0e-4690-8c6b-f553b36f8850.png`.
 - Supplied display fonts: Source Han Sans CN Bold for Chinese and Krona One Regular for English.
-- No verified company country list or production copy has been supplied; demonstration locations remain sample content.
+- The user supplied an 18-country business list; descriptive business metrics and production copy have not yet been supplied.
 
 ## Product Principles
 

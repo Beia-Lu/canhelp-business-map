@@ -49,11 +49,11 @@ Edit `src/data/businessCountries.ts`, or use the development panel. Each country
 - marker color and pulse behaviour;
 - card side and arbitrary future `business` fields.
 
-The included countries and values are illustrative and should be replaced before production use.
+The default dataset contains the 18 supplied business countries, mapped to the coordinates of each capital or primary business city.
 
 ## Debug configuration
 
-The Chinese development panel controls visual properties, bilingual text colors/opacities, hover/all card display, and country records. New countries require a Chinese name, English name, two-letter code, latitude, and longitude. Save writes versioned visual and country payloads to localStorage. Export Config remains available through the component API.
+The Chinese development panel controls visual properties, bilingual text sizes/colors/opacities, hover/all card display, and country records. Cards use 8px vertical and 12px horizontal padding, so the frame follows the selected font sizes. New countries require a Chinese name, English name, two-letter code, latitude, and longitude. Save writes versioned visual and country payloads to localStorage. Export Config remains available through the component API.
 
 The supplied fonts are bundled at `src/assets/fonts`: Source Han Sans CN Bold for Chinese card names and Krona One Regular for uppercase English names. The complete CJK font is intentionally retained so countries added later keep their glyphs; verify and retain the relevant font license notices when distributing the component.
 
